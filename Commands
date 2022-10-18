@@ -1,0 +1,64 @@
+1. swcting normal  user with  root priviliages
+ sudo su -  or sudo -i
+2. swcthing  into  root user
+  su  -
+3.swcthing into particular user
+su  -  dhana
+
+==============================
+[dhana@localhost ~]$ su naveen
+Password:
+[naveen@localhost dhana]$ exit
+[dhana@localhost ~]$ su -  naveen
+Password:
+Last login: Tue Oct  4 10:42:42 PDT 2022 on pts/1
+[naveen@localhost ~]$ pwd
+/home/naveen
+[naveen@localhost ~]$
+===============================
+
+check the LAN NIC : nmcli device status  or nacli d s
+to down LAN NIC : ifdown <adaptorname> or   ifconfig eth0 down
+to up LAN NIC : ifup <adaptorname> ifconfig eth0 up
+TO check IP : ifconfig or ip a
+
+
+====================================================
+To set hostname
+hostnamectl set-hostname
+
+==============================================
+OS details : cat /etc/os-release  or hostnamectl
+
+==============================================
+To check the kernel version : hostnamectl or uname -a
+
+======================================================
+to check the memory size : free -h or free -m or cat /proc/meminfo
+
+======================================================
+
+to check the CPU cores : lscpu or cat /proc/cpuinfo
+
+======================================================  	 	
+To check the logs
+Cd /var/log
+messages : for system logs
+Dmessages : hardware logs
+
+=========================================================
+to find a specific vaiable/word
+cat /etc/
+
+===================================================
+check list block device :lsblk
+
+===================================================
+Files types in linux : starts with -, d,l,c,b
+c = charector files
+d = directory
+l = symbolic linked files
+b = blocked devices
+| = send data to one process to another
+s
+

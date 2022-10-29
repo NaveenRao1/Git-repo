@@ -56,6 +56,9 @@ $ git config --list
 2.system level
 3.gobal level
 
+To download remote repo to local server.
+$ git clone <https://github.com/NaveenRao1/Git-repo.git>
+
 ##To change normal Directory to git repository Directory
 $ mkdir test-git
 $ cd test-git

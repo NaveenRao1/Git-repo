@@ -280,17 +280,3 @@ $ git stash apply stash@{0}
    docker -  jboss
 
 
-ansible push mechanism:  
-
-----------------------------
-Site reliability engineering mainly focuses on enhancing to  manage systems  availability and reliability , solve problems, and automate operations tasks.
-SRE teams are responsible for how code is deployed, configured, and monitored, as well as the availability, latency, change management, emergency response, and capacity management of services in production.
-SRE uses three Service Level Commitments to measure how well a system performs:
-
-Service level agreements (SLAs) define the required reliability, performance, and latency of the system as desired by end users.
-Service level objectives (SLOs) target values and goals set by SRE teams that should be met to satisfy SLAs.
-Service level indicators (SLIs) measure specific metrics and aspects that show how much a system conforms to the SLOs. Typical SLIs include request latency, system throughput, lead time, development frequency, mean time to restore (MTTR), and availability error rate.
-Key principles of SRE include:
-
-Principles Of SRE
-================================== 

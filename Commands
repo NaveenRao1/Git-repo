@@ -62,3 +62,152 @@ b = blocked devices
 | = send data to one process to another
 s
 
+
+
+frf################To check all running process######################
+To see every process on the system using standard syntax:
+$ ps -ef
+ 	or
+$ ps -e
+          
+To see every process on the system using BSD syntax:
+note:
+Berkeley Software Distribution (BSD)
+$ ps ax
+	or
+$ ps axu
+
+#####To know the which is file or directory######
+d--->if it is start d means it is directory
+- --> if it is start - means it is file
+
+#############To IP Address  in Linux machine #########
+$ ifconfig 
+	or
+$ ip a
+	or 
+$ hostname -i
+
+###########To check RAM or Memory size in Linux machine###########
+$ free -h
+	orc
+$ cat /proc/meminfo
+
+##########To check cpu core in  Linux machine###########
+$ lscpu
+	or 
+$ cat /proc/cpuinfo
+
+##########To check kernel version in  Linux machine###########
+$ uname -a
+	or 
+$ uname -r
+
+##########To check linux version in  Linux machine###########
+$ cat /etc/os-release
+	or 
+$ cat /etc/redhat-release
+
+############To create a user in  Linux machine###########
+    $ useradd <username>
+
+##########To assgin the password for created user in Linux machine#######
+$ passwd <username>
+
+#########To check user account information or user details  in Linux machine###########
+$ cat /etc/passwd
+my passwd is thulasi
+
+########To check user password information in Linux machine######
+$ cat /etc/shadow
+
+##########To delet a user in  Linux machine###########
+   $ userdel <username>
+
+ ########To list the files or folder in  Linux machine###########
+   $ ls -lrth
+	or 
+    $ ll -lrth
+  Note:-
+      ls  means listing sortly
+      ll means long listing
+#######To check file system size or  mount points in  Linux machine###########
+$ df -h
+Note:-
+   df  means disk free 
+
+#######To check current working  directory in  Linux machine###########
+    $ pwd 
+    Note: 
+######To delete the file or directory in Linux machine###########
+$ rm -rvf <file or directory(means folder)>
+Note:
+rm means remove the file or directory
+############To switch user with root privigiliesin Linux machine###########
+$ sudo -i or sudo su -
+##########To switch from one user to another userin Linux machine###########
+$ su - <username>
+
+########To dispaly or read file in Linux machine######
+$ cat <filename>
+	 
+$ cat thulasi
+#######sysmbol indication of users#################
+$------>normal user
+#------>root user
+###########To signout  or logout from the Linux Servers###########
+$ exit
+	or 
+$ ctrl + d
+
+######To clear screen or diplay###########
+$ clear 
+	or 
+$ ctlr + l
+##### To inerst  from the Linux machine ###########
+$ i
+
+####### To write and save the linux machine ########
+$ :wq
+
+####### To quite the linux machine #########
+$ :q
+
+####### To write  the linux machine #########
+$ :w
+
+######## T set the number in linux machine #########
+$ :set nu
+
+####### To last of the line goes to cursor #######
+$ shift+G
+
+####### To first line goes on the cursor ############
+& 1+shift+G
+
+########## To check all file or directory  in paticular path linux machine #########
+$ du -sh *
+
+########## To check total size of total directory in paticular path of  linux machine #########
+$ du -sh
+
+############ To rename   file or directory in  linux machine ######
+$ mv <old file name or old directory name> <old file name or old directory name>
+
+######To copy file or directory from one path to another in  linux machine ######
+$ cp -rvf <source path> <destination path>
+options:
+ -v, --verbose                explain what is being done
+ -f, --force                  if an existing destination file cannot be
+                                 opened, remove it and try again (this option
+                                 is ignored when the -n option is also used)
+-R, -r, --recursive          copy directories recursively
+EX:-
+[root@terraform ~]# cp -rvf sucess.sh /tmp
+'sucess.sh' -> '/tmp/sucess.sh'
+########### To filter the  particular  word in linux mechine ############
+$ cat /etc/passwd |grep root
+
+
+
+

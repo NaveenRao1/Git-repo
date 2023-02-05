@@ -106,7 +106,7 @@ $ uname -r
 ##########To check linux version in  Linux machine###########
 $ cat /etc/os-release
 	or 
-$ cat /etc/redhat-release
+$ cat /etc/system-release
 
 ############To create a user in  Linux machine###########
     $ useradd <username>

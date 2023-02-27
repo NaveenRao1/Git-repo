@@ -208,6 +208,13 @@ EX:-
 ########### To filter the  particular  word in linux mechine ############
 $ cat /etc/passwd |grep root
 
+===========================================================================
+to install epel package
 
+Install and turn on the EPEL release package for RHEL 7:
+sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
+yum clean all - will clean the recedue files
+yum repolist all - this command will let know what repos are enabled or disabled
 
 

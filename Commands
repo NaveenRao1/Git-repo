@@ -228,7 +228,7 @@ and copy files from /etc/skel to  /home/xyz
 
 ====================================================================================
 
-add user with home directory 
+add user without home directory 
 useradd -M username
 
 

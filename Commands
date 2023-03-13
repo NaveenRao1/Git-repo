@@ -226,4 +226,9 @@ useradd xyz
 If required to create home directory for the user in future, for this create home directory and assign the permission, change the permission of ower and group permisions
 and copy files from /etc/skel to  /home/xyz
 
+====================================================================================
+
+add user with home directory 
+useradd -M username
+
 

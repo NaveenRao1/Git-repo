@@ -217,4 +217,13 @@ sudo yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.
 yum clean all - will clean the recedue files
 yum repolist all - this command will let know what repos are enabled or disabled
 
+===============================================================================================
+
+User's Authentication permissions, to add ssh file to user profile
+
+useradd xyz
+/home
+If required to create home directory for the user in future, for this create home directory and assign the permission, change the permission of ower and group permisions
+and copy files from /etc/skel to  /home/xyz
+
 
